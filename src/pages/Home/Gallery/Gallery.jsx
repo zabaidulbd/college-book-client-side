@@ -9,7 +9,7 @@ const Gallery = () => {
     return (
         <div className='bg-gray-200'>
             <div className="container mx-auto py-6">
-                <h1 className="text-4xl font-bold text-center mb-6">College Book Gallery</h1>
+                <h1 className="text-4xl font-bold text-center mb-6">Book-Club Gallery</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                     <div className="bg-white shadow-lg rounded-lg overflow-hidden">
                         <img src={img1} className='w-full h-80 object-cover object-center transition-transform duration-300 transform hover:scale-110' alt="" />

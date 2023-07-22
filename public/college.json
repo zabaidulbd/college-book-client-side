@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "image": "https://img.freepik.com/free-photo/large-modern-office-building_1127-3072.jpg?w=900&t=st=1690005873~exp=1690006473~hmac=26d622390d11da311c53765f6977dd2e18ca04fd5e7dd19339e4b46111ae83be",
+        "name": "Oxford",
+        "about": "Oxford College, a world-renowned institution nestled in the historic city of Oxford, England, boasts centuries of academic excellence and intellectual tradition. With its distinguished faculty and diverse student body, Oxford College remains a bastion of knowledge, nurturing future leaders and scholars from around the globe. Its breathtaking architecture and rich cultural heritage make it an inspiring place to pursue higher education.",
+        "admission": "Admission will open soon",
+        "process": "Oxford College considers academic excellence as a primary criterion for admission. Applicants are evaluated based on their previous academic records, standardized test scores, and letters of recommendation.",
+        "date": "11-12-2023",
+        "events": "Annual College Fest,Career Fair & Workshops, Sports Extravaganza",
+        "details": "A vibrant celebration featuring cultural performances, music, dance, and various competitions, fostering a sense of camaraderie among students and staff",
+        "research": "Pioneering Innovations, From Discovery to Impact, Unveiling the Past, Shaping the Future",
+        "work": "The college's research endeavors cover diverse areas, including science, technology, humanities, social sciences, and the arts. Collaborative research initiatives with leading institutions worldwide further enrich the academic environment and facilitate interdisciplinary exploration.",
+        "sports": "Football, Cricket, Badminton",
+        "category": "These are competitive sports teams representing the college in intercollegiate competitions and leagues. Varsity sports often include popular sports like football, basketball, soccer, baseball, volleyball, track and field, swimming, and more.."
+    },
+    {
+        "id": 2,
+        "image": "https://img.freepik.com/free-photo/aerial-view-residence-bukovinian-dalmatian-metropolitans-chernivtsi-national-university-chernivtsi-touristic-destination-western-ukraine_231208-41.jpg?w=1060&t=st=1690006752~exp=1690007352~hmac=2ee5f7eb70dbbc221189de94bb43be160fee892edf28ae35f21fc49b241a5d84",
+        "name": "Cambrige",
+        "about": "Cambrige College, a world-renowned institution nestled in the historic city of Cambrige, England, boasts centuries of academic excellence and intellectual tradition. With its distinguished faculty and diverse student body, Cambrige College remains a bastion of knowledge, nurturing future leaders and scholars from around the globe. Its breathtaking architecture and rich cultural heritage make it an inspiring place to pursue higher education.",
+        "admission": "Admission will open soon",
+        "process": "Cambrige College considers academic excellence as a primary criterion for admission. Applicants are evaluated based on their previous academic records, standardized test scores, and letters of recommendation.",
+        "date": "11-10-2023",
+        "events": "Annual College Fest,Career Fair & Workshops, Sports Extravaganza",
+        "details": "A vibrant celebration featuring cultural performances, music, dance, and various competitions, fostering a sense of camaraderie among students and staff",
+        "research": "Pioneering Innovations, From Discovery to Impact, Unveiling the Past, Shaping the Future",
+        "work": "The college's research endeavors cover diverse areas, including science, technology, humanities, social sciences, and the arts. Collaborative research initiatives with leading institutions worldwide further enrich the academic environment and facilitate interdisciplinary exploration.",
+        "sports": "Football, Cricket, Hockey",
+        "category": "These are competitive sports teams representing the college in intercollegiate competitions and leagues. Varsity sports often include popular sports like football, basketball, soccer, baseball, volleyball, track and field, swimming, and more."
+    },
+    {
+        "id": 3,
+        "image": "https://img.freepik.com/free-photo/building-lake_1127-3460.jpg?w=900&t=st=1690007033~exp=1690007633~hmac=ea4068530369c0b1be2490d5f6d273c5cd5b397c945ace8a278ff8f4cab5daf7",
+        "name": "South East",
+        "about": "South East College, a world-renowned institution nestled in the historic city of Dhaka, Bangladesh, boasts centuries of academic excellence and intellectual tradition. With its distinguished faculty and diverse student body, Cambrige College remains a bastion of knowledge, nurturing future leaders and scholars from around the globe. Its breathtaking architecture and rich cultural heritage make it an inspiring place to pursue higher education.",
+        "admission": "Admission will open soon",
+        "process": "South East College considers academic excellence as a primary criterion for admission. Applicants are evaluated based on their previous academic records, standardized test scores, and letters of recommendation.",
+        "date": "11-11-2023",
+        "events": "Annual College Fest,Career Fair & Workshops, Sports Extravaganza",
+        "details": "A vibrant celebration featuring cultural performances, music, dance, and various competitions, fostering a sense of camaraderie among students and staff",
+        "research": "Pioneering Innovations, From Discovery to Impact, Unveiling the Past, Shaping the Future",
+        "work": "The college's research endeavors cover diverse areas, including science, technology, humanities, social sciences, and the arts. Collaborative research initiatives with leading institutions worldwide further enrich the academic environment and facilitate interdisciplinary exploration.",
+        "sports": "Football, Cricket, Hockey",
+        "category": "These are competitive sports teams representing the college in intercollegiate competitions and leagues. Varsity sports often include popular sports like football, basketball, soccer, baseball, volleyball, track and field, swimming, and more."
+    }
+]
