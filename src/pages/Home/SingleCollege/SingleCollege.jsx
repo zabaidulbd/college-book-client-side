@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const SingleCollege = ({ single }) => {
 
-    const { id, image, name, date, events, research, sports } = single;
+    const { id, image, name, date, events, work, sports } = single;
 
     return (
         <div className="flex justify-center items-center h-screen">
@@ -12,7 +12,7 @@ const SingleCollege = ({ single }) => {
                     <div className="font-bold text-xl mb-2">{name}</div>
                     <p className="text-gray-700 text-base mb-4">Admission Dates: {date}</p>
                     <p className="text-gray-700 text-base mb-4">Upcoming Events: {events}</p>
-                    <p className="text-gray-700 text-base mb-4">Research History: {research}</p>
+                    <p className="text-gray-700 text-base mb-4">Research History: {work}</p>
                     <p className="text-gray-700 text-base mb-4">Sports: {sports}</p>
                 </div>
                 <div className="flex justify-end">

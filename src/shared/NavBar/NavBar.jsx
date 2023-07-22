@@ -19,7 +19,7 @@ const Navbar = () => {
                     </p>
                 </div>
                 <div>
-                    <p className="text-xl font-bold text-blue-50 mx-5"><ActiveLink to={'/college'}>Colleges</ActiveLink></p>
+                    <p className="text-xl font-bold text-blue-50 mx-5"><ActiveLink to={'/colleges'}>Colleges</ActiveLink></p>
                 </div>
                 <div>
                     <span className="text-xl font-bold text-blue-50"><ActiveLink to={'/admission'}>Admission</ActiveLink></span> </div>

@@ -13,7 +13,7 @@ const Home = () => {
             <section>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4">
                     {
-                        collegeData.map(single => <SingleCollege key={single.id} single={single} ></SingleCollege>)
+                        collegeData.slice(0, 3).map(single => <SingleCollege key={single.id} single={single} ></SingleCollege>)
                     }
                 </div>
             </section>

@@ -9,10 +9,11 @@
         "date": "11-12-2023",
         "events": "Annual College Fest,Career Fair & Workshops, Sports Extravaganza",
         "details": "A vibrant celebration featuring cultural performances, music, dance, and various competitions, fostering a sense of camaraderie among students and staff",
-        "research": "Pioneering Innovations, From Discovery to Impact, Unveiling the Past, Shaping the Future",
+        "research": 3,
         "work": "The college's research endeavors cover diverse areas, including science, technology, humanities, social sciences, and the arts. Collaborative research initiatives with leading institutions worldwide further enrich the academic environment and facilitate interdisciplinary exploration.",
         "sports": "Football, Cricket, Badminton",
-        "category": "These are competitive sports teams representing the college in intercollegiate competitions and leagues. Varsity sports often include popular sports like football, basketball, soccer, baseball, volleyball, track and field, swimming, and more.."
+        "category": "These are competitive sports teams representing the college in intercollegiate competitions and leagues. Varsity sports often include popular sports like football, basketball, soccer, baseball, volleyball, track and field, swimming, and more..",
+        "rating": 3.5
     },
     {
         "id": 2,
@@ -24,10 +25,11 @@
         "date": "11-10-2023",
         "events": "Annual College Fest,Career Fair & Workshops, Sports Extravaganza",
         "details": "A vibrant celebration featuring cultural performances, music, dance, and various competitions, fostering a sense of camaraderie among students and staff",
-        "research": "Pioneering Innovations, From Discovery to Impact, Unveiling the Past, Shaping the Future",
+        "research": 4,
         "work": "The college's research endeavors cover diverse areas, including science, technology, humanities, social sciences, and the arts. Collaborative research initiatives with leading institutions worldwide further enrich the academic environment and facilitate interdisciplinary exploration.",
         "sports": "Football, Cricket, Hockey",
-        "category": "These are competitive sports teams representing the college in intercollegiate competitions and leagues. Varsity sports often include popular sports like football, basketball, soccer, baseball, volleyball, track and field, swimming, and more."
+        "category": "These are competitive sports teams representing the college in intercollegiate competitions and leagues. Varsity sports often include popular sports like football, basketball, soccer, baseball, volleyball, track and field, swimming, and more.",
+        "rating": 4.5
     },
     {
         "id": 3,
@@ -39,9 +41,58 @@
         "date": "11-11-2023",
         "events": "Annual College Fest,Career Fair & Workshops, Sports Extravaganza",
         "details": "A vibrant celebration featuring cultural performances, music, dance, and various competitions, fostering a sense of camaraderie among students and staff",
-        "research": "Pioneering Innovations, From Discovery to Impact, Unveiling the Past, Shaping the Future",
+        "research": "9",
         "work": "The college's research endeavors cover diverse areas, including science, technology, humanities, social sciences, and the arts. Collaborative research initiatives with leading institutions worldwide further enrich the academic environment and facilitate interdisciplinary exploration.",
         "sports": "Football, Cricket, Hockey",
-        "category": "These are competitive sports teams representing the college in intercollegiate competitions and leagues. Varsity sports often include popular sports like football, basketball, soccer, baseball, volleyball, track and field, swimming, and more."
+        "category": "These are competitive sports teams representing the college in intercollegiate competitions and leagues. Varsity sports often include popular sports like football, basketball, soccer, baseball, volleyball, track and field, swimming, and more.",
+        "rating": 4.5
+    },
+    {
+        "id": 4,
+        "image": "https://img.freepik.com/free-photo/park-lujiazui-financial-center-shanghai-china_1127-2860.jpg?w=900&t=st=1690016458~exp=1690017058~hmac=986f5462ef3ed543ec344fb2a64805fe643bbb13c6a2c3f40b36c208677f8854",
+        "name": "South North",
+        "about": "South North College, a world-renowned institution nestled in the historic city of Dhaka, Bangladesh, boasts centuries of academic excellence and intellectual tradition. With its distinguished faculty and diverse student body, Cambrige College remains a bastion of knowledge, nurturing future leaders and scholars from around the globe. Its breathtaking architecture and rich cultural heritage make it an inspiring place to pursue higher education.",
+        "admission": "Admission will open soon",
+        "process": "South North College considers academic excellence as a primary criterion for admission. Applicants are evaluated based on their previous academic records, standardized test scores, and letters of recommendation.",
+        "date": "11-10-2023",
+        "events": "Annual College Fest,Career Fair & Workshops, Sports Extravaganza",
+        "details": "A vibrant celebration featuring cultural performances, music, dance, and various competitions, fostering a sense of camaraderie among students and staff",
+        "research": "16",
+        "work": "The college's research endeavors cover diverse areas, including science, technology, humanities, social sciences, and the arts. Collaborative research initiatives with leading institutions worldwide further enrich the academic environment and facilitate interdisciplinary exploration.",
+        "sports": "Football, Cricket, Boxing",
+        "category": "These are competitive sports teams representing the college in intercollegiate competitions and leagues. Varsity sports often include popular sports like football, basketball, soccer, baseball, volleyball, track and field, swimming, and more.",
+        "rating": 2.5
+    },
+    {
+        "id": 5,
+        "image": "https://img.freepik.com/free-photo/red-buildings-households_1127-2024.jpg?w=900&t=st=1690016461~exp=1690017061~hmac=f9e31b2b298c7c7e192ff8b1e875699a7dc520adfa89bcabd26ae846d07e730c",
+        "name": "West East",
+        "about": "West East College, a world-renowned institution nestled in the historic city of Dhaka, Bangladesh, boasts centuries of academic excellence and intellectual tradition. With its distinguished faculty and diverse student body, Cambrige College remains a bastion of knowledge, nurturing future leaders and scholars from around the globe. Its breathtaking architecture and rich cultural heritage make it an inspiring place to pursue higher education.",
+        "admission": "Admission will open soon",
+        "process": "South East College considers academic excellence as a primary criterion for admission. Applicants are evaluated based on their previous academic records, standardized test scores, and letters of recommendation.",
+        "date": "11-11-2023",
+        "events": "Annual College Fest,Career Fair & Workshops, Sports Extravaganza",
+        "details": "A vibrant celebration featuring cultural performances, music, dance, and various competitions, fostering a sense of camaraderie among students and staff",
+        "research": "7",
+        "work": "The college's research endeavors cover diverse areas, including science, technology, humanities, social sciences, and the arts. Collaborative research initiatives with leading institutions worldwide further enrich the academic environment and facilitate interdisciplinary exploration.",
+        "sports": "Football, Cricket, Hockey",
+        "category": "These are competitive sports teams representing the college in intercollegiate competitions and leagues. Varsity sports often include popular sports like football, basketball, soccer, baseball, volleyball, track and field, swimming, and more.",
+        "rating": 2.5
+    },
+    {
+        "id": 6,
+        "image": "https://img.freepik.com/free-photo/large-modern-office-building_1127-3070.jpg?w=996&t=st=1690016468~exp=1690017068~hmac=7d11182ff1f8168f00f51dae7619cb34f1e3435862cfa573443500139c2015f6",
+        "name": "North South",
+        "about": " North South College, a world-renowned institution nestled in the historic city of Dhaka, Bangladesh, boasts centuries of academic excellence and intellectual tradition. With its distinguished faculty and diverse student body, Cambrige College remains a bastion of knowledge, nurturing future leaders and scholars from around the globe. Its breathtaking architecture and rich cultural heritage make it an inspiring place to pursue higher education.",
+        "admission": "Admission will open soon",
+        "process": "South East College considers academic excellence as a primary criterion for admission. Applicants are evaluated based on their previous academic records, standardized test scores, and letters of recommendation.",
+        "date": "11-12-2023",
+        "events": "Annual College Fest,Career Fair & Workshops, Sports Extravaganza",
+        "details": "A vibrant celebration featuring cultural performances, music, dance, and various competitions, fostering a sense of camaraderie among students and staff",
+        "research": "9",
+        "work": "The college's research endeavors cover diverse areas, including science, technology, humanities, social sciences, and the arts. Collaborative research initiatives with leading institutions worldwide further enrich the academic environment and facilitate interdisciplinary exploration.",
+        "sports": "Football, Cricket, Hockey",
+        "category": "These are competitive sports teams representing the college in intercollegiate competitions and leagues. Varsity sports often include popular sports like football, basketball, soccer, baseball, volleyball, track and field, swimming, and more.",
+        "rating": 1.5
     }
 ]
