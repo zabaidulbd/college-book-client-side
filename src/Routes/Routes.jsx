@@ -8,6 +8,8 @@ import CollegeName from "../pages/CollegeName/CollegeName";
 import SingleCollegeNameDetails from "../pages/SingleCollegeNameDetails/SingleCollegeNameDetails";
 import Login from "../pages/Login/Login";
 import Registration from "../pages/Registration/Registration";
+import Admission from "../pages/Admission/Admission";
+import Oxford from "../pages/Oxford/Oxford";
 
 
 const router = createBrowserRouter([
@@ -45,6 +47,14 @@ const router = createBrowserRouter([
             {
                 path: 'register',
                 element: <Registration></Registration>
+            },
+            {
+                path: 'admission',
+                element: <Admission></Admission>
+            },
+            {
+                path: 'oxford',
+                element: <Oxford></Oxford>
             }
         ],
 
