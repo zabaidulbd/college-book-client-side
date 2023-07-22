@@ -24,20 +24,21 @@ const router = createBrowserRouter([
                 element: <SingleCollegeDetails></SingleCollegeDetails>,
                 loader: () => fetch('/college.json')
             },
+            {
+
+                path: 'colleges',
+                element: <CollegeName></CollegeName>,
+                loader: collegeDataLoader
+
+            },
+            {
+                path: 'colleges/:collegesId',
+                element: <SingleCollegeNameDetails></SingleCollegeNameDetails>,
+                loader: () => fetch('/college.json')
+            }
         ],
 
     },
-    {
 
-        path: 'colleges',
-        element: <CollegeName></CollegeName>,
-        loader: collegeDataLoader
-
-    },
-    {
-        path: 'colleges/:collegesId',
-        element: <SingleCollegeNameDetails></SingleCollegeNameDetails>,
-        loader: () => fetch('/college.json')
-    }
 ]);
 export default router;
