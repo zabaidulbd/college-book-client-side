@@ -1,10 +1,24 @@
 
 import { Link } from "react-router-dom";
 import ActiveLink from "../../ActiveLink/ActiveLink";
+import { useContext } from "react";
+import { AuthContext } from "../../Providers/AuthProvider";
+import { FaUserAlt } from "react-icons/fa";
 
 
 
 const Navbar = () => {
+
+    const { user, logOut } = useContext(AuthContext);
+    const handleSignOut = () => {
+        logOut()
+            .then(() => { })
+            .catch(error => console.log(error))
+    }
+
+
+
+
     return (
         <div data-aos="fade-up" className="navbar bg-slate-400">
             <div className="flex-1">
@@ -26,19 +40,15 @@ const Navbar = () => {
             </div>
 
             <div className="flex-none gap-2">
-                {/* <span className="text-xl font-bold text-blue-50">
-                    <ActiveLink to={'/addToy'}>Add a Toy</ActiveLink>
-                </span>
-                <span className="text-xl font-bold text-blue-50 mx-4"><ActiveLink to={'/toys'}>My Colleges</ActiveLink></span>
-                <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                    <div className="w-12 rounded-full mx-2">
-                        <img src="https://img.freepik.com/free-photo/young-man-wearing-blue-outfit-holding-red-folder_1298-179.jpg?w=740&t=st=1683177286~exp=1683177886~hmac=c440209e285a379ced974449f84436bdcc297217e39170b08f534dfe769c131d" title="Zabaidul Islam" />
-                    </div>
-                </label>
-
-                <button className="btn btn-outline btn-accent me-10"><span className="text-white">Log-Out</span></button> */}
-
-                <Link to={'/login'}><button className="btn btn-outline btn-accent me-10"><span className="text-white">Login</span></button></Link>
+                {
+                    user?.email ?
+                        <>
+                            <span className="text-xl font-bold text-blue-50 mx-4"><ActiveLink to={'/toys'}>My Colleges</ActiveLink></span>
+                            <span className="text-xl font-semibold text-blue-50 mx-4"><ActiveLink to={'/toys'}>{user?.displayName ? user.displayName : <FaUserAlt></FaUserAlt>}</ActiveLink></span>
+                            <button className="btn btn-outline btn-accent me-10" onClick={handleSignOut}><span className="text-white">Log-Out</span></button>
+                        </> :
+                        <Link to={'/login'}><button className="btn btn-outline btn-accent me-10"><span className="text-white">Login</span></button></Link>
+                }
 
             </div>
         </div>
