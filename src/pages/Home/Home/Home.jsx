@@ -1,9 +1,10 @@
+import Gallery from "../Gallery/Gallery";
 
 
 const Home = () => {
     return (
         <div>
-            <h1>form home</h1>
+            <Gallery></Gallery>
         </div>
     );
 };
