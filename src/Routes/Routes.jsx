@@ -10,6 +10,7 @@ import Login from "../pages/Login/Login";
 import Registration from "../pages/Registration/Registration";
 import Admission from "../pages/Admission/Admission";
 import Oxford from "../pages/Oxford/Oxford";
+import MyColleges from "../pages/MyColleges/MyColleges";
 
 
 const router = createBrowserRouter([
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
             {
                 path: 'oxford',
                 element: <Oxford></Oxford>
+            },
+            {
+                path: 'myColleges',
+                element: <MyColleges></MyColleges>
             }
         ],
 

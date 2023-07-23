@@ -36,14 +36,17 @@ const Navbar = () => {
                     <p className="text-xl font-bold text-blue-50 mx-5"><ActiveLink to={'/colleges'}>Colleges</ActiveLink></p>
                 </div>
                 <div>
-                    <span className="text-xl font-bold text-blue-50"><ActiveLink to={'/admission'}>Admission</ActiveLink></span> </div>
+                    <span className="text-xl font-bold text-blue-50"><ActiveLink to={'/admission'}>Admission</ActiveLink></span>
+                </div>
+                <div className="ms-3">
+                    <span className="text-xl font-bold text-blue-50"><ActiveLink to={'/myColleges'}>My Colleges</ActiveLink></span>
+                </div>
             </div>
 
             <div className="flex-none gap-2">
                 {
                     user?.email ?
                         <>
-                            <span className="text-xl font-bold text-blue-50 mx-4"><ActiveLink to={'/toys'}>My Colleges</ActiveLink></span>
                             <span className="text-xl font-semibold text-blue-50 mx-4"><ActiveLink to={'/toys'}>{user?.displayName ? user.displayName : <FaUserAlt></FaUserAlt>}</ActiveLink></span>
                             <button className="btn btn-outline btn-accent me-10" onClick={handleSignOut}><span className="text-white">Log-Out</span></button>
                         </> :

@@ -1,53 +1,56 @@
+import { useContext } from "react";
+import { AuthContext } from "../../Providers/AuthProvider";
 
 const Oxford = () => {
+    const { user } = useContext(AuthContext);
 
     const handleSubmit = event => {
         event.preventDefault();
 
-        // const form = event.target;
-        // const picture = form.picture.value;
-        // const name = form.name.value;
-        // const email = form.email.value;
-        // const subject = form.subject.value;
-        // const phone = form.phone.value;
-        // const address = form.address.value;
-        // const date = form.date.value;
-        // const detail = form.detail.value;
-        // const candidateDetails = {
+        const form = event.target;
+        const picture = form.picture.value;
+        const name = form.name.value;
+        const email = user?.email;
+        const subject = form.subject.value;
+        const phone = form.phone.value;
+        const address = form.address.value;
+        const date = form.date.value;
+        const detail = form.detail.value;
+        const candidateDetails = {
 
-        //     picture,
-        //     name,
-        //     email,
-        //     subject,
-        //     phone,
-        //     address,
-        //     date,
-        //     detail
+            picture,
+            name,
+            email,
+            subject,
+            phone,
+            address,
+            date,
+            detail
 
-        // }
+        }
 
-        // fetch('http://localhost:5000/toys', {
-        //     method: 'POST',
-        //     headers: {
-        //         'content-type': 'application/json'
-        //     },
-        //     body: JSON.stringify(candidateDetails)
-        // })
-        //     .then(res => res.json())
-        //     .then(data => {
-        //         if (data.insertedId) {
-        //             alert('Application Submit successfully');
-        //             form.reset();
+        fetch('http://localhost:5000/candidates', {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(candidateDetails)
+        })
+            .then(res => res.json())
+            .then(data => {
+                if (data.insertedId) {
+                    alert('Application Submit successfully');
+                    form.reset();
 
-        //         }
-        //     })
+                }
+            })
 
     }
 
     return (
         <>
             <h1 className="font-bold text-center text-5xl mt-20 mb-10">Admission Application Form</h1>
-            <form onSubmit={handleSubmit} className="p-5">
+            <form onSubmit={handleSubmit} className="m-16 me-16">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="form-control">
                         <label className="label">
@@ -66,7 +69,7 @@ const Oxford = () => {
                         <label className="label">
                             <span className="label-text font-bold">Email</span>
                         </label>
-                        <input type="text" name="email" className="input input-bordered" />
+                        <input type="text" name="email" defaultValue={user?.email} className="input input-bordered" />
                     </div>
                     <div className="form-control">
                         <label className="label">
