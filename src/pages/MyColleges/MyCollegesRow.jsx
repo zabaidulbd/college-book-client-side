@@ -3,12 +3,58 @@ import { Link } from "react-router-dom";
 
 const MyCollegesRow = ({ singleCandidate }) => {
 
-    const { picture, name, email, subject, phone, address, date, detail } = singleCandidate
+    const { picture, name, email, subject, phone, address, date, detail } = singleCandidate;
+
+
+    const handleReviewSubmit = event => {
+        event.preventDefault();
+        const form = event.target;
+        const review = form.review.value;
+        const reviewDetails = {
+
+            picture,
+            name,
+            date,
+            review
+
+        }
+
+        fetch('http://localhost:5000/reviews', {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(reviewDetails)
+        })
+            .then(res => res.json())
+            .then(data => {
+                if (data.insertedId) {
+                    alert('Review Add successfully');
+                    form.reset();
+
+                }
+            })
+
+    }
 
 
 
     return (
         <>
+            <dialog id="my_modal_1" className="modal">
+                <form onSubmit={handleReviewSubmit} method="dialog" className="modal-box">
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text font-bold">Add Review</span>
+                        </label>
+                        <input type="text" name="review" placeholder="review" className="input input-bordered" />
+
+                    </div>
+                    <div className="form-control mt-2">
+                        <input className="btn btn-info" type="submit" value="Submit" />
+                    </div>
+                </form>
+            </dialog>
             <tr>
                 <th>
                     <div>
@@ -31,7 +77,7 @@ const MyCollegesRow = ({ singleCandidate }) => {
                 <td>{date}</td>
                 <td>{detail}</td>
                 <td>
-                    <Link><button className="btn btn-neutral me-2">Add Review</button></Link>
+                    <button className="btn btn-info" onClick={() => window.my_modal_1.showModal()}>Add Review</button>
                 </td>
             </tr>
 
