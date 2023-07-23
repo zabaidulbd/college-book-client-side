@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ResearchPaper = () => {
     return (
         <div className="my-20">
-            <h1 className="text-5xl text-center font-bold mb-10">The Art Of Reading Research Paper</h1>
+            <h1 className="text-5xl text-center font-bold mb-10 underline">The Art Of Reading Research Paper</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4">
                 <div className="card w-96 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">

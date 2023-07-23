@@ -2,6 +2,7 @@ import { useLoaderData } from "react-router-dom";
 import Gallery from "../Gallery/Gallery";
 import SingleCollege from "../SingleCollege/SingleCollege";
 import ResearchPaper from "../ResearchPaper/ResearchPaper";
+import Review from "../Review/Review";
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
                 </div>
             </section>
             <ResearchPaper></ResearchPaper>
+            <Review></Review>
         </div>
     );
 };
