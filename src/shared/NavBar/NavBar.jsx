@@ -20,7 +20,7 @@ const Navbar = () => {
 
 
     return (
-        <div data-aos="fade-up" className="navbar bg-slate-400">
+        <div data-aos="fade-up" className="navbar bg-slate-500">
             <div className="flex-1">
                 <div>
                     <img className="w-32 rounded-full mx-5" src="https://img.freepik.com/free-vector/gradient-book-logo-with-slogan_23-2148832096.jpg?w=740&t=st=1690001800~exp=1690002400~hmac=0efbfe86bd920d5c5168705bddb47c92622bc680adc815c8e1f17d3403253a4e" alt="" />
@@ -47,7 +47,7 @@ const Navbar = () => {
                 {
                     user?.email ?
                         <>
-                            <span className="text-xl font-semibold text-blue-50 mx-4"><ActiveLink to={'/toys'}>{user?.displayName ? user.displayName : <FaUserAlt></FaUserAlt>}</ActiveLink></span>
+                            <span className="text-xl font-semibold text-blue-50 mx-4"><Link to={'/users'}>{user?.displayName ? user.displayName : <FaUserAlt></FaUserAlt>}</Link></span>
                             <button className="btn btn-outline btn-accent me-10" onClick={handleSignOut}><span className="text-white">Log-Out</span></button>
                         </> :
                         <Link to={'/login'}><button className="btn btn-outline btn-accent me-10"><span className="text-white">Login</span></button></Link>

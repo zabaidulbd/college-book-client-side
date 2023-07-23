@@ -7,7 +7,7 @@ import img6 from '../../../assets/college-graduation/img7.jpg'
 
 const Gallery = () => {
     return (
-        <div className='bg-gray-200 my-20'>
+        <div className='my-20'>
             <div className="container mx-auto py-6">
                 <h1 className="text-5xl font-bold text-center mb-10 underline">Book-Club Gallery</h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">

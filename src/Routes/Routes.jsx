@@ -11,6 +11,9 @@ import Registration from "../pages/Registration/Registration";
 import Admission from "../pages/Admission/Admission";
 import Oxford from "../pages/Oxford/Oxford";
 import MyColleges from "../pages/MyColleges/MyColleges";
+import PrivateRoute from "./PrivateRoute";
+import Users from "../pages/Users/Users";
+import UpdateReview from "../pages/UpdateReview/UpdateReview";
 
 
 const router = createBrowserRouter([
@@ -59,8 +62,19 @@ const router = createBrowserRouter([
             },
             {
                 path: 'myColleges',
-                element: <MyColleges></MyColleges>
+                element: <PrivateRoute><MyColleges></MyColleges></PrivateRoute>
+            },
+            {
+                path: 'users',
+                element: <Users></Users>
+            },
+
+            {
+                path: '/updateUser/:id',
+                element: <UpdateReview></UpdateReview>,
+                loader: ({ params }) => fetch(`http://localhost:5000/candidates/${params.id}`)
             }
+
         ],
 
     },
