@@ -10,7 +10,7 @@ const SingleCollegeNameDetails = () => {
     const collegeNameDetails = useLoaderData();
     useEffect(() => {
         if (collegeNameDetails) {
-            const uniqueCollegeName = collegeNameDetails.find(data => data.id == dynamicCollegeId);
+            const uniqueCollegeName = collegeNameDetails.find(data => data._id == dynamicCollegeId);
             setSingleDetails(uniqueCollegeName)
 
         }

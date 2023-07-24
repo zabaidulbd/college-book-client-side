@@ -1,6 +1,5 @@
 [
     {
-        "id": 1,
         "image": "https://img.freepik.com/free-photo/large-modern-office-building_1127-3072.jpg?w=900&t=st=1690005873~exp=1690006473~hmac=26d622390d11da311c53765f6977dd2e18ca04fd5e7dd19339e4b46111ae83be",
         "name": "Oxford",
         "about": "Oxford College, a world-renowned institution nestled in the historic city of Oxford, England, boasts centuries of academic excellence and intellectual tradition. With its distinguished faculty and diverse student body, Oxford College remains a bastion of knowledge, nurturing future leaders and scholars from around the globe. Its breathtaking architecture and rich cultural heritage make it an inspiring place to pursue higher education.",
@@ -16,7 +15,6 @@
         "rating": 3.5
     },
     {
-        "id": 2,
         "image": "https://img.freepik.com/free-photo/aerial-view-residence-bukovinian-dalmatian-metropolitans-chernivtsi-national-university-chernivtsi-touristic-destination-western-ukraine_231208-41.jpg?w=1060&t=st=1690006752~exp=1690007352~hmac=2ee5f7eb70dbbc221189de94bb43be160fee892edf28ae35f21fc49b241a5d84",
         "name": "Cambrige",
         "about": "Cambrige College, a world-renowned institution nestled in the historic city of Cambrige, England, boasts centuries of academic excellence and intellectual tradition. With its distinguished faculty and diverse student body, Cambrige College remains a bastion of knowledge, nurturing future leaders and scholars from around the globe. Its breathtaking architecture and rich cultural heritage make it an inspiring place to pursue higher education.",
@@ -32,7 +30,6 @@
         "rating": 4.5
     },
     {
-        "id": 3,
         "image": "https://img.freepik.com/free-photo/building-lake_1127-3460.jpg?w=900&t=st=1690007033~exp=1690007633~hmac=ea4068530369c0b1be2490d5f6d273c5cd5b397c945ace8a278ff8f4cab5daf7",
         "name": "South East",
         "about": "South East College, a world-renowned institution nestled in the historic city of Dhaka, Bangladesh, boasts centuries of academic excellence and intellectual tradition. With its distinguished faculty and diverse student body, Cambrige College remains a bastion of knowledge, nurturing future leaders and scholars from around the globe. Its breathtaking architecture and rich cultural heritage make it an inspiring place to pursue higher education.",
@@ -48,7 +45,6 @@
         "rating": 4.5
     },
     {
-        "id": 4,
         "image": "https://img.freepik.com/free-photo/park-lujiazui-financial-center-shanghai-china_1127-2860.jpg?w=900&t=st=1690016458~exp=1690017058~hmac=986f5462ef3ed543ec344fb2a64805fe643bbb13c6a2c3f40b36c208677f8854",
         "name": "South North",
         "about": "South North College, a world-renowned institution nestled in the historic city of Dhaka, Bangladesh, boasts centuries of academic excellence and intellectual tradition. With its distinguished faculty and diverse student body, Cambrige College remains a bastion of knowledge, nurturing future leaders and scholars from around the globe. Its breathtaking architecture and rich cultural heritage make it an inspiring place to pursue higher education.",
@@ -64,7 +60,6 @@
         "rating": 2.5
     },
     {
-        "id": 5,
         "image": "https://img.freepik.com/free-photo/red-buildings-households_1127-2024.jpg?w=900&t=st=1690016461~exp=1690017061~hmac=f9e31b2b298c7c7e192ff8b1e875699a7dc520adfa89bcabd26ae846d07e730c",
         "name": "West East",
         "about": "West East College, a world-renowned institution nestled in the historic city of Dhaka, Bangladesh, boasts centuries of academic excellence and intellectual tradition. With its distinguished faculty and diverse student body, Cambrige College remains a bastion of knowledge, nurturing future leaders and scholars from around the globe. Its breathtaking architecture and rich cultural heritage make it an inspiring place to pursue higher education.",
@@ -80,7 +75,6 @@
         "rating": 2.5
     },
     {
-        "id": 6,
         "image": "https://img.freepik.com/free-photo/large-modern-office-building_1127-3070.jpg?w=996&t=st=1690016468~exp=1690017068~hmac=7d11182ff1f8168f00f51dae7619cb34f1e3435862cfa573443500139c2015f6",
         "name": "North South",
         "about": " North South College, a world-renowned institution nestled in the historic city of Dhaka, Bangladesh, boasts centuries of academic excellence and intellectual tradition. With its distinguished faculty and diverse student body, Cambrige College remains a bastion of knowledge, nurturing future leaders and scholars from around the globe. Its breathtaking architecture and rich cultural heritage make it an inspiring place to pursue higher education.",

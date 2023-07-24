@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const SingleCollege = ({ single }) => {
 
-    const { id, image, name, date, events, work, sports } = single;
+    const { _id, image, name, date, events, work, sports } = single;
 
     return (
 
@@ -18,7 +18,7 @@ const SingleCollege = ({ single }) => {
                     <p className="text-gray-700 text-base mb-4">Sports: {sports}</p>
                 </div>
                 <div className="flex justify-end">
-                    <Link className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 me-3 mb-3" to={`/college/${id}`}>View Details</Link>
+                    <Link className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 me-3 mb-3" to={`/college/${_id}`}>View Details</Link>
                 </div>
             </div>
         </div>

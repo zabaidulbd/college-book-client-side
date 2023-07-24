@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 const SingleUsers = ({ singleUser }) => {
     const { _id, picture, name, email, subject, phone, address, date, detail } = singleUser;
 
+
+
     return (
         <>
             <tr>
@@ -28,7 +30,7 @@ const SingleUsers = ({ singleUser }) => {
                 <td>{date}</td>
                 <td>{detail}</td>
                 <td>
-                    <Link to={`/updateUser/${_id}`}><button className="btn btn-neutral">Edit</button></Link>
+                    <Link to={`/updateUser/${_id}`}><button className="font-bold text-white bg-gray-500 p-4">Edit</button></Link>
                 </td>
             </tr>
 

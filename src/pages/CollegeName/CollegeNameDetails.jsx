@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const CollegeNameDetails = ({ singleCollege }) => {
 
 
-    const { id, image, name, date, research, rating, } = singleCollege
+    const { _id, image, name, date, research, rating, } = singleCollege
 
     return (
 
@@ -20,7 +20,7 @@ const CollegeNameDetails = ({ singleCollege }) => {
                         <p className="text-gray-700 text-base mb-4">Sports: {rating}</p>
                     </div>
                     <div className="flex justify-end">
-                        <Link className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 me-3 mb-3" to={`/colleges/${id}`}>View Details</Link>
+                        <Link className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 me-3 mb-3" to={`/colleges/${_id}`}>View Details</Link>
                     </div>
                 </div>
             </div>

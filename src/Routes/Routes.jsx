@@ -30,7 +30,7 @@ const router = createBrowserRouter([
             {
                 path: 'college/:collegeId',
                 element: <SingleCollegeDetails></SingleCollegeDetails>,
-                loader: () => fetch('/college.json')
+                loader: () => fetch('http://localhost:5000/colleges')
             },
             {
 
@@ -42,7 +42,7 @@ const router = createBrowserRouter([
             {
                 path: 'colleges/:collegesId',
                 element: <SingleCollegeNameDetails></SingleCollegeNameDetails>,
-                loader: () => fetch('/college.json')
+                loader: () => fetch('http://localhost:5000/colleges')
             },
             {
                 path: 'login',

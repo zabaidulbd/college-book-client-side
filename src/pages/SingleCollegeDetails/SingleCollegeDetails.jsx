@@ -8,7 +8,7 @@ const SingleCollegeDetails = () => {
     const collegeDetails = useLoaderData();
     useEffect(() => {
         if (collegeDetails) {
-            const uniqueCollege = collegeDetails.find(data => data.id == dynamicCollegeId);
+            const uniqueCollege = collegeDetails.find(data => data._id == dynamicCollegeId);
             setDetails(uniqueCollege)
 
         }

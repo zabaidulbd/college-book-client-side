@@ -26,9 +26,9 @@ const Users = () => {
             <div className="overflow-x-auto w-full mb-10">
                 <table className="table w-full p-5">
                     {/* head */}
-                    <thead>
+                    <thead className="bg-gray-200 text-xl">
                         <tr>
-                            <th>picture</th>
+                            <th>Picture</th>
                             <th>Name</th>
                             <th>Email</th>
                             <th>Subject</th>
@@ -39,7 +39,7 @@ const Users = () => {
                             <th>Action</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody className="bg-gray-100">
                         {
                             myUsers.map(singleUser => <SingleUsers key={singleUser._id} singleUser={singleUser}></SingleUsers>)
                         }
