@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 
 const SingleCollege = ({ single }) => {
@@ -5,6 +6,7 @@ const SingleCollege = ({ single }) => {
     const { id, image, name, date, events, work, sports } = single;
 
     return (
+
         <div className="flex justify-center items-center h-screen">
             <div className="max-w-md rounded overflow-hidden shadow-lg bg-white">
                 <img src={image} alt="" className="w-full h-72 object-cover object-center" />

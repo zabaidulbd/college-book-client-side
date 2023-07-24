@@ -21,7 +21,7 @@ const Users = () => {
 
 
     return (
-        <div>
+        <div className="my-28">
             <h1 className="text-center font-bold text-5xl mt-20 mb-10">User Profile</h1>
             <div className="overflow-x-auto w-full mb-10">
                 <table className="table w-full p-5">

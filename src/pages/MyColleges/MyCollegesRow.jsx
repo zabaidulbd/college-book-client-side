@@ -77,11 +77,12 @@ const MyCollegesRow = ({ singleCandidate }) => {
                 <td>{date}</td>
                 <td>{detail}</td>
                 <td>
-                    <button className="btn btn-info" onClick={() => window.my_modal_1.showModal()}>Add Review</button>
+                    <button className="bg-gray-400 p-3 font-bold mr-2" onClick={() => window.my_modal_1.showModal()}>Add Review</button>
+                    <Link to='http://localhost:5179/colleges/1'>
+                        <button className="bg-gray-400 p-3 font-bold">College Details</button>
+                    </Link>
                 </td>
             </tr>
-
-
         </>
     );
 };

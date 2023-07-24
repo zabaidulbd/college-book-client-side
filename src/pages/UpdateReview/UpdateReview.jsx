@@ -7,8 +7,6 @@ const UpdateReview = () => {
 
     const singleUser = useLoaderData();
 
-    console.log('from single user', singleUser)
-
     const { user } = useContext(AuthContext);
 
     const { _id, picture, name, subject, phone, address, date, detail } = singleUser;

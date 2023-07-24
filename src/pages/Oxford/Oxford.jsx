@@ -6,7 +6,6 @@ const Oxford = () => {
 
     const handleSubmit = event => {
         event.preventDefault();
-
         const form = event.target;
         const picture = form.picture.value;
         const name = form.name.value;
@@ -112,7 +111,7 @@ const Oxford = () => {
                 </div>
 
                 <div className="form-control mt-6">
-                    <input className="btn btn-info btn-block" type="submit" value="Submit" />
+                    <input className="bg-gray-300 font-bold p-4 btn btn-block" type="submit" value="Submit" />
                 </div>
             </form>
         </>

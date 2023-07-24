@@ -21,14 +21,14 @@ const MyColleges = () => {
 
 
     return (
-        <div>
+        <div className="my-28">
             <h1 className="text-center font-bold text-5xl mt-20 mb-10">List of My Total Colleges</h1>
             <div className="overflow-x-auto w-full mb-10">
-                <table className="table w-full p-5">
+                <table className="table w-full p-4">
                     {/* head */}
-                    <thead>
+                    <thead className="text-xl bg-gray-200">
                         <tr>
-                            <th>picture</th>
+                            <th>Picture</th>
                             <th>Name</th>
                             <th>Email</th>
                             <th>Subject</th>
@@ -39,7 +39,7 @@ const MyColleges = () => {
                             <th>Action</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody className="bg-gray-100">
                         {
                             myCandidates.map(singleCandidate => <MyCollegesRow key={singleCandidate._id} singleCandidate={singleCandidate}></MyCollegesRow>)
                         }
