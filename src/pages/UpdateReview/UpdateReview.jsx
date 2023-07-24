@@ -36,7 +36,7 @@ const UpdateReview = () => {
 
         }
 
-        fetch(`http://localhost:5000/candidates/${_id}`, {
+        fetch(`https://college-book-server-beta.vercel.app/candidates/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

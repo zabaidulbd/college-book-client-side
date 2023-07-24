@@ -19,7 +19,7 @@ const MyCollegesRow = ({ singleCandidate }) => {
 
         }
 
-        fetch('http://localhost:5000/reviews', {
+        fetch('https://college-book-server-beta.vercel.app/reviews', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -78,9 +78,7 @@ const MyCollegesRow = ({ singleCandidate }) => {
                 <td>{detail}</td>
                 <td>
                     <button className="bg-gray-400 p-3 font-bold mr-2" onClick={() => window.my_modal_1.showModal()}>Add Review</button>
-                    <Link to='http://localhost:5179/colleges/1'>
-                        <button className="bg-gray-400 p-3 font-bold">College Details</button>
-                    </Link>
+                    <Link to='/myColleges/details'><button className="bg-gray-400 p-3 font-bold">College Details</button></Link>
                 </td>
             </tr>
         </>

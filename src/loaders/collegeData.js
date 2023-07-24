@@ -1,5 +1,5 @@
 const collegeDataLoader = async () => {
-    const loadCollege = await fetch('http://localhost:5000/colleges');
+    const loadCollege = await fetch('https://college-book-server-beta.vercel.app/colleges');
     const totalCollege = await loadCollege.json();
     return totalCollege;
 }

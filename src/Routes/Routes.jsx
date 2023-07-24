@@ -14,6 +14,7 @@ import MyColleges from "../pages/MyColleges/MyColleges";
 import PrivateRoute from "./PrivateRoute";
 import Users from "../pages/Users/Users";
 import UpdateReview from "../pages/UpdateReview/UpdateReview";
+import CollegeDetails from "../pages/CollegeDetails/CollegeDetails";
 
 
 const router = createBrowserRouter([
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
             {
                 path: 'college/:collegeId',
                 element: <SingleCollegeDetails></SingleCollegeDetails>,
-                loader: () => fetch('http://localhost:5000/colleges')
+                loader: () => fetch('https://college-book-server-beta.vercel.app/colleges')
             },
             {
 
@@ -42,7 +43,7 @@ const router = createBrowserRouter([
             {
                 path: 'colleges/:collegesId',
                 element: <SingleCollegeNameDetails></SingleCollegeNameDetails>,
-                loader: () => fetch('http://localhost:5000/colleges')
+                loader: () => fetch('https://college-book-server-beta.vercel.app/colleges')
             },
             {
                 path: 'login',
@@ -72,8 +73,14 @@ const router = createBrowserRouter([
             {
                 path: '/updateUser/:id',
                 element: <UpdateReview></UpdateReview>,
-                loader: ({ params }) => fetch(`http://localhost:5000/candidates/${params.id}`)
+                loader: ({ params }) => fetch(`https://college-book-server-beta.vercel.app/candidates/${params.id}`)
+            },
+            {
+                path: '/myColleges/details',
+                element: <CollegeDetails></CollegeDetails>,
+                loader: () => fetch('https://college-book-server-beta.vercel.app/colleges')
             }
+
 
         ],
 

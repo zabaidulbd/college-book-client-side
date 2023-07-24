@@ -28,7 +28,7 @@ const Oxford = () => {
 
         }
 
-        fetch('http://localhost:5000/candidates', {
+        fetch('https://college-book-server-beta.vercel.app/candidates', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
