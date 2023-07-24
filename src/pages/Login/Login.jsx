@@ -1,5 +1,5 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { FaGooglePlus } from 'react-icons/fa';
+import { FaGooglePlusG } from 'react-icons/fa';
 import { useContext, useState } from "react";
 import { GoogleAuthProvider, getAuth, signInWithPopup } from "firebase/auth";
 import Lottie from "lottie-react";
@@ -83,8 +83,8 @@ const Login = () => {
 
                                     </div>
                                     <div className="form-control mt-6">
-                                        <button onClick={handleGoogleLogIn} className="btn btn-outline btn-neutral"> <FaGooglePlus style={{ fontSize: '30px', marginRight: '10px' }}></FaGooglePlus>Log In</button>
-                                        <input className="btn btn-neutral mt-2" type="submit" value="Login" />
+                                        <button onClick={handleGoogleLogIn} className="btn btn-outline btn-neutral"> <FaGooglePlusG style={{ fontSize: '30px', marginRight: '10px' }}></FaGooglePlusG>Log In</button>
+                                        <input className="btn bg-gray-500 text-white p-4 mt-2" type="submit" value="Login" />
                                     </div>
                                     <p className='text-red-600'>{logInError}</p>
                                 </div>

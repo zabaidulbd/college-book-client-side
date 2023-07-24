@@ -77,7 +77,7 @@ const Registration = () => {
                             </div>
                             <p className='text-red-600'>{registrationError}</p>
                             <div className="form-control mt-6">
-                                <input className="btn btn-neutral mt-2" type="submit" value="Register" />
+                                <input className="btn bg-gray-500 p-4 text-white mt-2" type="submit" value="Register" />
                             </div>
                         </div>
                     </div>

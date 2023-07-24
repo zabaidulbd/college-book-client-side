@@ -122,7 +122,7 @@ const UpdateReview = () => {
                 </div>
 
                 <div className="form-control mt-6">
-                    <input className="btn btn-info btn-block" type="submit" value="Edit" />
+                    <input className="bg-gray-400 font-bold p-4 btn btn-block" type="submit" value="Edit" />
                 </div>
             </form>
         </>
