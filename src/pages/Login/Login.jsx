@@ -75,7 +75,7 @@ const Login = () => {
                                         </label>
                                         <input type="password" name="password" placeholder="password" className="input input-bordered" />
                                         <label className="label">
-                                            <p className="label-text-alt text-sm">Forgot Password ? <span className="text-black font-bold"><Link to={'/register'}>Reset</Link></span> </p>
+                                            <p className="label-text-alt text-sm">Forgot Password ? <span className="text-black font-bold"><Link to={'/reset-password'}>Reset</Link></span> </p>
                                         </label>
                                         <label className="label">
                                             <p className="label-text-alt text-sm font-semibold">Do not have account ? <span className="text-black font-bold"><Link to={'/register'}>Register</Link></span> </p>

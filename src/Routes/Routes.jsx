@@ -15,6 +15,7 @@ import PrivateRoute from "./PrivateRoute";
 import Users from "../pages/Users/Users";
 import UpdateReview from "../pages/UpdateReview/UpdateReview";
 import CollegeDetails from "../pages/CollegeDetails/CollegeDetails";
+import ResetPassword from "../pages/ResetPassword/ResetPassword ";
 
 
 const router = createBrowserRouter([
@@ -79,8 +80,11 @@ const router = createBrowserRouter([
                 path: '/myColleges/details',
                 element: <CollegeDetails></CollegeDetails>,
                 loader: () => fetch('https://college-book-server-beta.vercel.app/colleges')
+            },
+            {
+                path: 'reset-password',
+                element: <ResetPassword></ResetPassword>
             }
-
 
         ],
 
